@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro pessoal</title>
+</head>
+<body>
+    <form>
+         Nome:<input type="text" placeholder="Nome" required>
+        E-mail:<input type="email" placeholder="E-mail" required><br><br>
+        Telefone <input type="tel">
+        Data de nascimento <input type="date" max="2024-12-31"min="1990-01-01"><br>
+        <h5>Categoria:</h5>
+        <input type="radio" name="tipo">Estudante
+        <input type="radio" name="tipo">Professor
+        <input type="radio" name="tipo">Funcionario
+        <h5>Possui interesse em uma das áreas?:</h5>
+        <input type="checkbox">Mecânica
+        <input type="checkbox">T.I.
+        <input type="checkbox">Elétrica<br><br>
+        Quantos cursos você já fez? <input type="number" max="30" min="1"><br><br>
+        <select>
+            <option>Fernando Prestes</option>
+            <option>Rubens de Farias</option>
+            <option>Armando Panunzio</option><br><br>
+            </select><br><br>
+            Insira sua imagem <input type="file"><br><br>
+            <input type="reset" value="Limpar">
+            <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
