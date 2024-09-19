@@ -2,3 +2,43 @@ img{
     height: 150px;
     width: 100px;
 }
+table{
+    background-color:rgba(0, 0, 0, 0.607);
+    color:white;
+    border: 5px solid black;
+    border-radius: 15px;
+    width:90%;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+}
+body{
+    background-color:black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#linha1{
+    background-color:#8C0000;
+    color:white;
+    font-size: 30px;
+}
+#linha1 th{
+    border: 5px solid #8C0000;
+}
+td{
+    border: 1px dashed red;
+}
+.dadosimpares{
+    background-color:#3C3C3C;
+}
+h2{
+    font-size:60px;
+    color:#AB0000;
+} 
+h3{
+    font-size:25px;
+    color:#AB0000;
+} 
+h1{
+    font-size:35px;
+    color:#AB0000;
+} 
