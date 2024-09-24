@@ -1,0 +1,92 @@
+header{
+    border: 3px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+header img{
+    width:100px ;
+    height: 100px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+nav ul li{
+    list-style: none;
+    border: 1px solid black;
+    padding: 0px 10px;
+}
+nav ul li:hover{
+    background-color: rgb(160, 160, 160);
+}  
+
+nav ul li:hover ul{
+    display: block;
+}
+
+nav ul li ul{
+    display: none;
+    position: absolute; 
+}
+nav ul li ul li{
+    padding: 5px 0px;
+}
+li{
+    cursor: pointer;
+}
+.grid-1{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.grid-2{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.elemento{
+    height: 200px;
+    margin: 10px;
+}
+.elemento-2{
+    height: 200px;
+    margin: 10px;
+}
+#Semana-prova{
+    color: black;
+    background-color: rgb(161, 245, 82);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+}
+#websai{
+    color: black;
+    background-color: rgb(247, 171, 78);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 10px;
+}
+#passe-escolar{
+    color:black;
+    background-color: rgb(117, 163, 229);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+#noticias{
+    color:black;
+    background-color: rgb(168, 59, 59);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+}
